@@ -8,11 +8,13 @@ namespace OperatorsExercise
         {
             Workingwith2Numbers();
             AreaOfCircle();
-            Console.WriteLine("Press any key to continue...");
+            Console.WriteLine("Press any key to continue... Or not :) Thatr is all for one run.");
+            Console.ReadLine();
+            
         }
         public static void Workingwith2Numbers()
         {
-            Console.WriteLine("Hello! We are working with two chosen numhbers today: 17 and 4.");
+            Console.WriteLine("Hello! We are working with two chosen numbers today: 17 and 4.");
             int a = 17;
             int b = 4;
             int quotient = a / b;
@@ -30,7 +32,7 @@ namespace OperatorsExercise
         {
             Console.WriteLine("What is the area of your circle?");
             var radius = double.Parse(Console.ReadLine());
-            Console.WriteLine(Math.PI * radius * radius);
+            Console.WriteLine(Math.PI * Math.Pow(radius, 2));
 
 
         }
