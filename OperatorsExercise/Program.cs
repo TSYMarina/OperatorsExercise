@@ -8,7 +8,7 @@ namespace OperatorsExercise
         {
             Workingwith2Numbers();
             AreaOfCircle();
-            Console.WriteLine("Press any key to continue... Or not :) Thatr is all for one run.");
+            Console.WriteLine("Press any key to continue... Or not :) That is all for one run.");
             Console.ReadLine();
             
         }
